@@ -1,7 +1,7 @@
 name: My hello World
 
 on:
-  workflow_dispatch:
+  push:  
 
 jobs:
   Tarea1:
