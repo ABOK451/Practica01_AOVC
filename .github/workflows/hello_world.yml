@@ -1,15 +1,12 @@
 name: My hello World
 
-
 on:
   workflow_dispatch:
 
-
 jobs:
   Tarea1:
-    run_on: ubuntu:latest
+    runs-on: ubuntu-latest
 
-
-   steps:
-     - name: Digo Hola
-       run: echo "Hola a todos"
+    steps:
+      - name: Digo Hola
+        run: echo "Hola a todos"
